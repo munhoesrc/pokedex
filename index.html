@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Links -->
   <link rel="icon" href="./favicons/favicon-16x16.png">
   <link rel="stylesheet" href="style.css">
 
@@ -20,9 +21,24 @@
       <span class="pokemon__name">charizard</span>
     </h1>
 
-    <img src="./imagens/pokedex.png" alt="pokedex"  class="pokedex">
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Name or Number"
+        required
+      />
+    </form>
 
+    <div class="buttons">
+      <button class="button btn-prev">Prev &lt;</button>
+      <button class="button btn-next">Next &gt;</button>
+    </div>
+
+    <img src="./imagens/pokedex.png" alt="pokedex"  class="pokedex">
   </main>
-  
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
 </body>
 </html>
